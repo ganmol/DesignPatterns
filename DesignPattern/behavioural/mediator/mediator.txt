@@ -1,0 +1,25 @@
+it avoids direct refrences to communicate with objects.
+
+so we introduec a mediator (interface)with connects two objects
+
+promotes oosely coupled communication between objects .
+
+
+ objects are not aware of the existence of other objects.
+ 
+  Objects depend only on a single mediator class ,
+ instead of being coupled to dozens of other objects.
+ 
+ 
+ Mediator ==>  interface for communication between Colleague objects.
+ 
+ConcreteMediator == implements the Mediator interface and coordinates communication between Colleague objects. 
+It is aware of all of the Colleagues and their purposes with regards to inter-communication.
+
+
+.Colleague =  interface for communication with other Colleagues through its Mediator/
+ConcreteColleague  -= implements the Colleague interface and communicates with other Colleagues through its Mediator
+
+communication is
+
+ConcreteColleague -> IColleague  -> IMediator -> ConcreteMediator

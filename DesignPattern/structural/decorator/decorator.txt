@@ -1,0 +1,9 @@
+Its an alternative to subclassing where 
+
+Add new functionality to an existing object without altering its structure.
+
+acts as a wrapper to existing class.
+
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+
+it also avoid long abstract class

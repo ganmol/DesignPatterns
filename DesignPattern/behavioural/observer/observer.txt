@@ -1,0 +1,9 @@
+
+Used where there is one to many relationship :
+
+Subject and Observer .
+Subject pushes data and observer gets notified about data as observer is observing data
+
+Channel - subscriber :
+
+no need of observer to pull data from subscriber , instead  Subject pushes  data 

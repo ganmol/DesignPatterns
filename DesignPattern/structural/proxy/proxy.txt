@@ -1,0 +1,29 @@
+
+when we need to call object instead of calling directly we call it by proxy .
+
+access related objects s
+
+Types of ways proxy is used to control access   can be called 
+
+1.Remote proxy == used when resource need to be accesed is remote (different namespace , different server)
+	so interaction with different server / namesapce to be save and thus wrapped into a proxy .
+	
+	proxy -> interacts with remote resource and returns a promise (response from extrnal resource)
+
+
+2. virtual proxy ==  controls access to resource which is expensive to create
+		(	caching )
+
+3. protection proxy ==  checks for only users that are allowed to access resource can access it .
+
+
+
+UML :
+  proxy implements Isubject
+  real subject implements ISubject
+  proxy has a real subject
+
+proxy controls the access to real subject.
+
+*** 
+property and field must be accessed i same way , but from outside it should not be visible that we areaceesing field or method

@@ -1,0 +1,14 @@
+
+Use Composition( Has A ) instead of Inheritance (Is A);
+
+When we cannot create hearachi solutions ,  when property A is not shared downwards (Parent - child) , 
+
+property A must be shared between siblings  only .
+
+Make interface of property A (Has A relatioshp is established ), so that every child can implement property A accordingly .
+
+Stratergy :
+
+
+Interface can be better than sub class 
+

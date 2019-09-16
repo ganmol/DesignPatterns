@@ -1,0 +1,24 @@
+
+
+iterator will not give whole colections at once it will give you one item at one time . 
+when asked for other then other item .
+
+-- it has informatiom hiding  benefit (encapsulation )
+
+iterable --> concarete iterable (that can be enumurated)  -- the return iterators
+
+iterator --> concreate iterator (that does enumuration)
+
+//ConacreteIterable will produce concerete Iterator 
+Iterator i  =  concreateIterable.getIterator();
+
+
+List extends ConcreateIterable (giving functionality to enumurate over list ) 
+
+
+Iterator needs 3 methods 
+bool hasNext() ;
+void next();  // moves pointer to next item
+T currentItem(); 
+
+

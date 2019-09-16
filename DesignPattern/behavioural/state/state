@@ -1,0 +1,19 @@
+
+
+It manages state
+
+At a state depending on input their are diffrent  actions can take place 
+
+parameter and state defines the action to perform 
+
+state of door is closed
+parameter  == payemnt sucess 
+action = door opens
+
+
+multiple state 
+one interfce state  and multiple concerete state class 
+
+
+inputs can be placed in one context(Door) , 
+context has a state  

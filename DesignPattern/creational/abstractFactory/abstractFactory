@@ -1,0 +1,14 @@
+
+
+AbstractFactory has multiple factory 
+
+define family of related object without specifing concerete classes
+
+similar object are clubed into one interface and that interface is saved in factory interface
+
+
+AbstractFactory — declares an interface for operations that create abstract products.
+ ConcreteFactory — implements operations to create concrete products.
+ AbstractProduct — declares an interface for a type of product objects.
+ Product — defines a product to be created by the corresponding ConcreteFactory; it implements the AbstractProduct interface.
+ Client — uses the interfaces declared by the AbstractFactory and AbstractProduct classes.

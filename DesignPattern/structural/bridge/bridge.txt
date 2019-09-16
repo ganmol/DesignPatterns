@@ -1,0 +1,18 @@
+
+decouple abstraction from implementation hahahaha !
+
+ When we need to remove abstraction from implementation class 
+ 
+ Used when we need to share implementation class with multiple objects 
+ 
+ implementor is introduced 
+ 
+ Interface 
+ redifined Interface
+ 
+ Implemetor concrete implemetation 
+ 
+ complile time binding akes palce between abstraction and impleentation 
+ 
+  to make it dynamic we introduce new interface/ abstractor class 
+ 

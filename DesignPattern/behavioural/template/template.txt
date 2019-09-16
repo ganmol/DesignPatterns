@@ -1,0 +1,11 @@
+
+
+Template act as a blue print .
+
+and create object from them 
+
+Template is an abstarct class  with some concrete method  which are common to all object
+and some abstract method with no implementations
+
+
+

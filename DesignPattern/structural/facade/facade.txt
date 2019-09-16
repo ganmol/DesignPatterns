@@ -1,0 +1,11 @@
+
+Law of least Knowledge (law of demeter )
+talk to nearest (immediate ) friend , not friends of friends (a.b is allowed but a.b.c is not allowed )
+
+Provide a unified interface to a set of interfaces in a subsystem
+
+set of interfaces  are complex to use b'coz 
+Object obj = new Obj1(new objct(new Object3(new Object 4(new Object 5))));
+
+to avoid this we use facade a iterface 
+

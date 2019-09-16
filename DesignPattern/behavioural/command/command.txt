@@ -1,0 +1,18 @@
+
+
+It has a invoker(gives command) and  a receiver (takes command)
+
+invoker gives command to ICommand (command Interface ), 
+which has a implementation of command .
+
+Concrete command performs action on recevier .
+
+
+command which  can be reversed (un done)
+
+invoker (remote)
+command ( turn on light )
+receiver ( light)
+
+
+In command pattern we are wrapping command thats needs to be passed on 

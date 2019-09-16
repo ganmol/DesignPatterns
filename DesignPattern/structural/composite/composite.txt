@@ -1,0 +1,13 @@
+It act as tree structure
+
+has multiple components and each component has leaf .
+
+each component has compositer which is composit of nodes
+
+any operation performed on leaf , same operation need to be performed on compositor
+
+to perform same operation , leaf and compositor must share common feature
+
+Component 
+	* Composite
+		* Leaf
